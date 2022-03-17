@@ -1,0 +1,37 @@
+header{
+    background-color: rgb(159, 170, 63);
+    height: 60vh;
+    box-shadow:0px 0px 10px 5px rgba(0, 0, 0, 0.466);
+}
+
+@media(max-width:991px){
+    header{
+        height:auto;
+    }
+    .slogan{
+        margin-top: 0px;
+    }
+    .navRight a{
+        margin: 0px;
+    }
+    .navRight ul{
+        flex-direction: column;
+    }
+    .navLeft h3{
+        font-size: 25px;
+        margin-bottom: 8px;
+    }
+    .nav{
+        flex-direction: column;
+        padding-bottom: 0px;
+    }   
+   
+}
+
+
+
+
+
+
+
+
